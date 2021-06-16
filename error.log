@@ -1,0 +1,86 @@
+> Executing task: nx run test-e2e:e2e <
+
+
+> nx run test-e2e:e2e 
+success open and validate gatsby-configs - 0.166s
+success load plugins - 2.333s
+success onPreInit - 0.093s
+success initialize cache - 0.353s
+success copy gatsby files - 2.160s
+success onPreBootstrap - 0.156s
+success createSchemaCustomization - 0.007s
+success Checking for changed pages - 0.001s
+success source and transform nodes - 0.105s
+success building schema - 0.833s
+success createPages - 0.001s
+success createPagesStatefully - 0.181s
+info Total nodes: 39, SitePage nodes: 4 (use --verbose for breakdown)
+success Checking for changed pages - 0.001s
+success update schema - 0.132s
+success write out redirect data - 0.009s
+success Build manifest and related icons - 12.600s
+success onPostBootstrap - 12.695s
+info bootstrap finished - 27.318s
+success onPreExtractQueries - 0.001s
+success extract queries from components - 0.872s
+success write out requires - 0.066s
+success run page queries - 0.056s - 3/3 53.53/s
+
+ ERROR 
+
+The 'compilation' argument must be an instance of Compilation
+
+
+
+  TypeError: The 'compilation' argument must be an instance of Compilation
+
+  - NormalModule.js:195 Function.getCompilationHooks
+    [Recreate-gatsby-e2e]/[react-refresh-webpack-plugin]/[webpack]/lib/NormalMod
+    ule.js:195:10
+
+  - index.js:253 
+    [Recreate-gatsby-e2e]/[@pmmmwh]/react-refresh-webpack-plugin/lib/index.js:25
+    3:26
+
+
+  - Hook.js:14 Hook.CALL_DELEGATE [as _call]
+    [Recreate-gatsby-e2e]/[gatsby]/[tapable]/lib/Hook.js:14:14
+
+  - Compiler.js:1034 Compiler.newCompilation
+    [Recreate-gatsby-e2e]/[gatsby]/[webpack]/lib/Compiler.js:1034:26
+
+  - Compiler.js:1076 
+    [Recreate-gatsby-e2e]/[gatsby]/[webpack]/lib/Compiler.js:1076:29
+
+
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [Recreate-gatsby-e2e]/[gatsby]/[tapable]/lib/Hook.js:18:14
+
+  - Compiler.js:1071 Compiler.compile
+    [Recreate-gatsby-e2e]/[gatsby]/[webpack]/lib/Compiler.js:1071:28
+
+  - Watching.js:188 
+    [Recreate-gatsby-e2e]/[gatsby]/[webpack]/lib/Watching.js:188:19
+
+
+
+  - runMicrotasks
+
+  - task_queues.js:95 processTicksAndRejections
+    internal/process/task_queues.js:95:5
+
+
+not finished Building development bundle - 11.151s
+
+Could not start Gatsby Development Server. See errors above.
+
+———————————————————————————————————————————————
+
+>  NX   ERROR  Running target "test-e2e:e2e" failed
+
+  Failed tasks:
+  
+  - test-e2e:e2e
+
+
+Terminal will be reused by tasks, press any key to close it.
